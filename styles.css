@@ -1,6 +1,6 @@
 
 body{
-	background-color:powderblue;
+	background-color:#e8f8f5;
 	text-align: center;
 }
 
@@ -19,7 +19,7 @@ div{
 }
 
 button{
-	background-color: cadetblue;
+	background-color: powderblue;
 	font-weight: bold;
 	font-size:large;
 	width: 200px ;
@@ -28,4 +28,9 @@ button{
 
 button:hover{
 	background-color: powderblue
+}
+
+nav{
+	background-color:black;
+	top:0px;
 }

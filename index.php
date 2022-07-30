@@ -1,13 +1,23 @@
-<html>
+<! DOCTYPE html >
+
+<html lang="en">
 
 <head>
+    
+</head>
+
+<body>
+      <nav class="navbar">
+        <a href="/html/">New Ticket</a> |
+        <a href="/css/">Existing Ticket</a> |
+        <a href="/js/">Developer Login</a>
+      </nav>
+
     <h1>
         Bug Tracker
         <link rel="stylesheet" href="styles.css" />
     </h1>
-</head>
 
-<body>
     <div class="text-center">
         
         <! Create New Ticket >
