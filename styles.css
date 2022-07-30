@@ -19,8 +19,13 @@ div{
 }
 
 button{
-	background-color: powderblue;
+	background-color: cadetblue;
 	font-weight: bold;
 	font-size:large;
 	width: 200px ;
+	height: 40px;
+}
+
+button:hover{
+	background-color: powderblue
 }
