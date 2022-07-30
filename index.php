@@ -8,10 +8,10 @@
 <body>
 
     <nav class="topnav">
-        <a style="color:white;" href="index">Home</a>
-        <a style="color:white;" href="#">New Ticket</a>
-        <a style="color:white;" href="#">Existing Ticket</a>
-        <a style="color:white;"href="#">Developer Login</a>
+        <a href="index">Home</a>
+        <a href="#">New Ticket</a>
+        <a href="#">Existing Ticket</a>
+        <a href="#">Developer Login</a>
     </nav>
 
     <h1>
