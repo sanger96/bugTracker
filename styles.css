@@ -11,10 +11,12 @@ div{
 	border: 3px solid black;
 	border-radius: 50px;
 	background: silver;
-	padding: 40px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	margin: auto;
-	max-width:200px;
+	width:400px;
 	margin-top:15%;
+	text-align:center;
 }
 
 button{
@@ -23,6 +25,7 @@ button{
 	font-size:large;
 	width: 200px ;
 	height: 40px;
+	margin:15px;
 	color: whitesmoke;
 	border-radius:50px;
 }
@@ -34,6 +37,7 @@ button{
 .topnav {
 	overflow: hidden;
 	background-color: black;
+	padding:0;
 }
 
 	.topnav a {
@@ -51,4 +55,16 @@ button{
 		color: black;
 	}
 
-		
+input {
+	background-color: #e8f8f5;
+	font-weight: bold;
+	font-size: large;
+	width: 200px;
+	height: 40px;
+	margin: 15px;
+}
+	
+	label{
+		font-weight:bold;
+		font-size:20px;
+	}
