@@ -6,19 +6,18 @@
 <html lang="en">
 
 <body>
-
     <nav class="topnav">
         <a href="/index.php">Home</a>
         <a href="/Tickets/createTicket.php">Create Ticket</a>
         <a href="/Tickets/existingTicket.php">Existing Ticket</a>
-        <a href="/Tickets/devLogin.php">Developer Login</a>
+        <a href="/devAccounts/devLogin.php">Developer Login</a>
     </nav>
 
     <h1>
         Bug Tracker
     </h1>
 
-    <div class="text-center">
+    <div class="box">
         
         <! Create New Ticket >
         <button onclick="location.href ='/Tickets/createTicket.php'">Create New Ticket</button>
@@ -31,7 +30,7 @@
         <br />
         
         <! Developer Login >
-        <button onclick="location.href ='/Tickets/devLogin.php'">Developer Login</button>
+        <button onclick="location.href ='/devAccounts/devLogin.php'">Developer Login</button>
 
     </div>
 </body>

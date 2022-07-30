@@ -7,26 +7,27 @@ h1{
 	text-align: center;
 }
 
-div{
+.box{
 	border: 3px solid black;
 	border-radius: 50px;
-	background: silver;
+	background-color:whitesmoke;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	margin: auto;
-	width:400px;
+	min-width:250px;
+	max-width:400px;
 	margin-top:15%;
 	text-align:center;
 }
 
 button{
-	background-color: darkslategray;
+	background-color: silver;
 	font-weight: bold;
 	font-size:large;
 	width: 200px ;
 	height: 40px;
 	margin:15px;
-	color: whitesmoke;
+	color: black;
 	border-radius:50px;
 }
 

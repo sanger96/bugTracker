@@ -6,21 +6,33 @@
 
 <html lang="en">
 
-<body>
+    <body>
 
-    <nav class="topnav">
-        <a href="/index.php">Home</a>
-        <a href="/Tickets/createTicket.php">Create Ticket</a>
-        <a href="/Tickets/existingTicket.php">Existing Ticket</a>
-        <a href="/Tickets/devLogin.php">Developer Login</a>
-    </nav>
+        <nav class="topnav">
+            <a href="/index.php">Home</a>
+            <a href="/Tickets/createTicket.php">Create Ticket</a>
+            <a href="/Tickets/existingTicket.php">Existing Ticket</a>
+            <a href="/Tickets/devLogin.php">Developer Login</a>
+        </nav>
 
+        <h1>
+            Existing Ticket
+        </h1>
 
-    <h1>
-        Existing Ticket
-    </h1>
+        <form>
+            <div class="box">   
+            <input type="text" name="Ticket" placeholder=" Ticket #" required/>
+            <br />
+            <br />
+            <input type="text" name="email" placeholder=" email" required/>
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+            <button onclick="location.href='/Tickets/createAccount.php'">Creat Account</button>
+            </div>       
+        </form>
 
-</body>
+    </body>
 
 </html>
 

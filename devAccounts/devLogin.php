@@ -18,11 +18,11 @@
     <h1>Developer Login</h1>
 
     <form>
-        <div>   
-        <input type="text" name="userName" placeholder="Username" required/>
+        <div class="box">   
+        <input type="text" name="userName" placeholder=" Username" required/>
         <br />
         <br />
-        <input type="text" name="password" placeholder="Password" required/>
+        <input type="text" name="password" placeholder=" Password" required/>
         <br />
         <br />
         <button type="submit">Submit</button>
