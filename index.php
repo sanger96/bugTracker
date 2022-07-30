@@ -1,21 +1,21 @@
 <! DOCTYPE html >
+<meta charset="utf-8" />
+<meta name="viewport" content="width=devicewidth, initial sclae=1.0" />
+<link rel="stylesheet" href="styles.css" />
 
 <html lang="en">
 
-<head>
-    
-</head>
-
 <body>
-      <nav class="navbar">
-        <a href="/html/">New Ticket</a> |
-        <a href="/css/">Existing Ticket</a> |
-        <a href="/js/">Developer Login</a>
-      </nav>
+
+    <nav class="topnav">
+        <a style="color:white;" href="index">Home</a>
+        <a style="color:white;" href="#">New Ticket</a>
+        <a style="color:white;" href="#">Existing Ticket</a>
+        <a style="color:white;"href="#">Developer Login</a>
+    </nav>
 
     <h1>
         Bug Tracker
-        <link rel="stylesheet" href="styles.css" />
     </h1>
 
     <div class="text-center">
