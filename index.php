@@ -1,11 +1,36 @@
 <html>
 
-<head>Hello there!!</head>
+<head>
+    <h1>
+        Bug Tracker
+        <link rel="stylesheet" href="styles.css" />
+    </h1>
+</head>
 
 <body>
-    testing...
+    <div class="text-center">
+        
+        <! Create New Ticket >
+        <button onclick="location.href ='createTicket'">Create New Ticket</button>
+        <br />
+        <br />
+        <br />
+        
+        <! Existing Ticket >
+        <button onclick="location.href ='existingTicket'">Open Existing Ticket</button>
+        <br />
+        <br />
+        <br />
+        
+        <! Developer Login >
+        <button onclick="location.href ='devLogin'">Developer Login</button>
+
+    </div>
 </body>
 
+<br />
+<br />
+<br />
 <br />
 
 

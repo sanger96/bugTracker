@@ -1,0 +1,26 @@
+
+body{
+	background-color:powderblue;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+div{
+	border: 3px solid black;
+	border-radius: 50px;
+	background: silver;
+	padding: 40px;
+	margin: auto;
+	max-width:200px;
+	margin-top:15%;
+}
+
+button{
+	background-color: powderblue;
+	font-weight: bold;
+	font-size:large;
+	width: 200px ;
+}
