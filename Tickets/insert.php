@@ -19,5 +19,8 @@ $sql = "INSERT INTO tickets (priority, issue, email)
 VALUES ('$priority', '$issue', '$email')";
 $result = $mysqli->query($sql);
 
+//redirects
+header('Location:newTicket.php');
+
 $mysqli->close();
 ?>
