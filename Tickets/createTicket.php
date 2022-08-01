@@ -18,15 +18,11 @@
         Create Ticket
     </h1>
 
-    <?php
-    include "connect.php";
-    ?>
-
-    <form action="#" style="text-align:center; font-size:medium">
+    <form action="insert.php" style="text-align:center; font-size:medium">
         <label style=" color:black ; font-size:18px " for="priority">Set a level of priority</label>     
         
         <! Drop-down box to set priority level of issue >
-        <select id="priority" name="priority">
+        <select name="priority">
             <option style=" background-color:lightgoldenrodyellow" value="1">1 - Minor Inconvenience</option>
             <option style=" background-color:gold" value="2">2 - Inconvenience</option>
             <option style=" background-color:goldenrod" value="3">3 - Slowing down work flow</option>
@@ -37,23 +33,17 @@
         <br />
         
         <! input box for issues >
-        <textarea placeholder="Please describe your issue here." required></textarea>
+        <textarea name="issue" placeholder="Please describe your issue here." required></textarea>
         <br />
 
         <! input area for email> 
-        <input style="width:auto" type = "email" placeholder = "Email@EmailClient.com" required/>
-
-        <! upload file >
-        <text> &nbsp  &nbsp Upload a picture:</text>
-        <input type = "file" name = "upload" accept = "image/*" />
-        <br />
-
-        <! Ticket # return value upon submit >
-        <input style="border-radius:10px; background-color:mediumaquamarine" id="ticketReturn" placeholder=" Ticket # Return" readonly="readonly"/>
+        <input name="email" style="width:auto" type = "email" placeholder = "Email@EmailClient.com" required/>
 
         <! Sumbit button >
         <button type = "submit">Submit</button>
-        <br />
+
+        <! Ticket # return value upon submit >
+        <input style="border-radius:10px; background-color:mediumaquamarine" name="ticket" placeholder=" Ticket # Return" readonly="readonly"/>
         <br />
         <br />
 
