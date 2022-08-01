@@ -14,13 +14,16 @@
         </nav>
 
         <form>
-            <div class="box">   
+            <div class="box">
+            <label>Username</label><br />    
             <input type="text" name="userName" placeholder="Username" required/>
             <br />
             <br />
+            <label>Password</label><br />
             <input type="text" name="password" placeholder="Password" required/>
             <br />
             <br />
+            <label>Re-Password</label><br />
             <input type="text" name="password" placeholder="Re-Password" required/>
             <br />
             <br />

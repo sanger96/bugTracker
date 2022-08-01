@@ -18,15 +18,17 @@
     <h1>Developer Login</h1>
 
     <form>
-        <div class="box">   
+        <div class="box">
+        <label>Username</label><br />
         <input type="text" name="userName" placeholder=" Username" required/>
         <br />
         <br />
+        <label>Password</label><br />
         <input type="text" name="password" placeholder=" Password" required/>
         <br />
         <br />
         <button type="submit">Submit</button>
-        <button onclick="location.href='/Tickets/createAccount.php'">Creat Account</button>
+        <button onclick="location.href='/devAccounts/createAccount.php'">Creat Account</button>
         </div>       
     </form>
 

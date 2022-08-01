@@ -18,7 +18,11 @@
         Create Ticket
     </h1>
 
-    <form style="text-align:center; font-size:medium">
+    <?php
+    include "connect.php";
+    ?>
+
+    <form action="#" style="text-align:center; font-size:medium">
         <label style=" color:black ; font-size:18px " for="priority">Set a level of priority</label>     
         
         <! Drop-down box to set priority level of issue >
@@ -33,22 +37,22 @@
         <br />
         
         <! input box for issues >
-        <textarea placeholder="Please describe your issue here."></textarea>
+        <textarea placeholder="Please describe your issue here." required></textarea>
         <br />
 
         <! input area for email> 
-        <input style="width:auto" type = "email" placeholder = "Email@EmailClient.com"/>
+        <input style="width:auto" type = "email" placeholder = "Email@EmailClient.com" required/>
 
         <! upload file >
         <text> &nbsp  &nbsp Upload a picture:</text>
         <input type = "file" name = "upload" accept = "image/*" />
-
-        <! Sumbit button >
-        <button type = "submit">Submit</button>
         <br />
 
         <! Ticket # return value upon submit >
         <input style="border-radius:10px; background-color:mediumaquamarine" id="ticketReturn" placeholder=" Ticket # Return" readonly="readonly"/>
+
+        <! Sumbit button >
+        <button type = "submit">Submit</button>
         <br />
         <br />
         <br />

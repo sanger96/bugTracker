@@ -20,16 +20,17 @@
         </h1>
 
         <form>
-            <div class="box">   
-            <input type="text" name="Ticket" placeholder=" Ticket #" required/>
+            <div class="box">
+            <label>Email</label><br />
+            <input type="text" name="email" placeholder=" Email@mail.com" required/>
             <br />
             <br />
-            <input type="text" name="email" placeholder=" email" required/>
+            <label>Ticket #</label><br />
+            <input type="number" name="Ticket" placeholder=" Ticket #" required/>
             <br />
             <br />
             <button type="submit">Submit</button>
-            <button onclick="location.href='/Tickets/createAccount.php'">Creat Account</button>
-            </div>       
+            </div>    
         </form>
 
     </body>
