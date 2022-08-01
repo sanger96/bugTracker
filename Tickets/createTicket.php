@@ -18,7 +18,7 @@
         Create Ticket
     </h1>
 
-    <form action="insert.php" style="text-align:center; font-size:medium">
+    <form action="insertTicket.php" style="text-align:center; font-size:medium">
         <label style=" color:black ; font-size:18px " for="priority">Set a level of priority</label>     
         
         <! Drop-down box to set priority level of issue >
