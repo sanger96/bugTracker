@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHPWebProject1", "PHPWebProject1.phpproj", "{A4D06855-2E1A-43A4-8414-5CF7156E79F2}"
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "bugTracker", "bugTracker.phpproj", "{A4D06855-2E1A-43A4-8414-5CF7156E79F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
