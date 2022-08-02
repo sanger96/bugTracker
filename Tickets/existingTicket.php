@@ -30,6 +30,9 @@
             <br />
             <br />
             <button type="submit">Submit</button>
+            <br />
+            <br />
+            <a href="/Tickets/forgotTicket.php">Forgot Ticket #</a>
             </div>    
         </form>
 

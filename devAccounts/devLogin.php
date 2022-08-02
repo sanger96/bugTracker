@@ -29,6 +29,9 @@
         <br />
         <button type="submit">Submit</button>
         <button onclick="location.href='/devAccounts/createAccount.php'">Creat Account</button>
+        <br />
+        <br />
+        <a href="/Tickets/forgotTicket.php">Forgot Password</a>
         </div>       
     </form>
 

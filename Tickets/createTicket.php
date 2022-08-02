@@ -48,7 +48,7 @@
         <br />
 
         <! Existing Ticket button >
-        <a href="/Tickets/existingTicket.php" style="color:darkgoldenrod">Click Here If You Have An Existing Ticket</a>
+        <a href="/Tickets/existingTicket.php">Click Here If You Have An Existing Ticket</a>
 
     </form>
 </body>

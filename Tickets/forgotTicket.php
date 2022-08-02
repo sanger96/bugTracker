@@ -5,7 +5,9 @@
 
 
 <html lang="en">
+
     <body>
+
         <nav class="topnav">
             <a href="/index.php">Home</a>
             <a href="/Tickets/createTicket.php">Create Ticket</a>
@@ -13,22 +15,25 @@
             <a href="/devAccounts/devLogin.php">Developer Login</a>
         </nav>
 
-        <form action="insertAccount.php">
+        <h1>
+            Existing Ticket
+        </h1>
+
+        <form>
             <div class="box">
-            <label>Username</label><br />    
-            <input type="text" name="userName" placeholder="Username" required/>
+            <label>Email</label><br />
+            <input type="text" name="email" placeholder=" Email@mail.com" required/>
             <br />
             <br />
-            <label>Password</label><br />
-            <input type="password" name="password" placeholder="Password" required/>
-            <br />
-            <br />
-            <label>Re-Password</label><br />
-            <input type="password" name="re-password" placeholder="Re-Password" required/>
+            <label>Ticket #</label><br />
+            <input type="number" name="Ticket" placeholder=" Ticket #" required/>
             <br />
             <br />
             <button type="submit">Submit</button>
-            </div>       
+            </div>    
         </form>
+
     </body>
+
 </html>
+
