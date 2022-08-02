@@ -16,6 +16,12 @@
     </nav>
 
     <h1>Developer Login</h1>
+    
+    <div style="text-align:center; font-size:18px">
+        <p>To preview a demo of an existing account use the following login:</p>
+        <p>Username: demo</p>
+        <p>Password: password</p>
+    </div>
 
     <form>
         <div class="box">

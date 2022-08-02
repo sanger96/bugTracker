@@ -16,7 +16,7 @@ h1{
 	margin: auto;
 	min-width:250px;
 	max-width:400px;
-	margin-top:225px;
+	margin-top:150px;
 	text-align:center;
 }
 
@@ -47,7 +47,7 @@ button{
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
-		font-size: large;
+		font-size: 20px;
 		font-weight:bold;
 	}
 

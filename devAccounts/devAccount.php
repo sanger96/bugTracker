@@ -20,7 +20,7 @@
 
         <br />
 
-        <?php //currently displays all previous tickets, needs just last ticekt
+        <?php
         //opens database
         include "connect.php";
 
