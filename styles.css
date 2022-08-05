@@ -1,6 +1,8 @@
 
-body{
-	background-color:#e8f8f5;
+body {
+	background-color: #e8f8f5;
+	margin: 0;
+	padding: 0;
 }
 
 h1{
@@ -39,6 +41,7 @@ button{
 	overflow: hidden;
 	background-color: black;
 	padding:0;
+	margin:0;
 }
 
 	.topnav a {
@@ -92,3 +95,28 @@ a{
 	color: blue;
 	text-decoration:none;
 }
+
+table{
+	border-collapse: collapse;
+	margin:auto;
+}
+
+th, td {
+	border: 2px solid black;
+	text-align: left;
+	padding: 8px;
+	word-wrap: break-word;
+	max-width: 1000px;
+}
+
+tr:nth-child(even) {
+	background-color: mediumaquamarine;
+	color: black;
+}
+
+tr:first-child{
+	font-weight:bold;
+	font-size:large;
+}
+
+

@@ -9,7 +9,7 @@
         <nav class="topnav">
             <a href="/index.php">Home</a>
             <a href="/Tickets/createTicket.php">Create Ticket</a>
-            <a href="/Tickets/existingTicket.php">Existing Ticket</a>
+            <a href="/Tickets/existingTicket.php">Existing Tickets</a>
             <a href="/devAccounts/devLogin.php">Developer Login</a>
         </nav>
 

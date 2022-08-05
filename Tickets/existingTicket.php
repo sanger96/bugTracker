@@ -7,39 +7,51 @@
 <html lang="en">
 
     <body>
-
-        <nav class="topnav">
-            <a href="/index.php">Home</a>
-            <a href="/Tickets/createTicket.php">Create Ticket</a>
-            <a href="/Tickets/existingTicket.php">Existing Ticket</a>
-            <a href="/devAccounts/devLogin.php">Developer Login</a>
-        </nav>
-
-        <h1>
-            Existing Ticket
-        </h1>
+        <header>
+            <nav class="topnav">
+                <a href="/index.php">Home</a>
+                <a href="/Tickets/createTicket.php">Create Ticket</a>
+                <a href="/Tickets/existingTicket.php">Existing Tickets</a>
+                <a href="/devAccounts/devLogin.php">Developer Login</a>
+            </nav>
+        </header>
         
-        <div style="text-align:center; font-size:18px">
-            <p>To preview a demo of an existing ticket use the following login:</p>
-            <p>Email: <strong>demo@email.com</strong> </p>
-            <p>Ticket #: <strong>3</strong> </p>
-        </div>
-        <form>
-            <div class="box">
-            <label>Email</label><br />
-            <input type="text" name="email" placeholder=" Email@mail.com" required/>
-            <br />
-            <br />
-            <label>Ticket #</label><br />
-            <input type="number" name="Ticket" placeholder=" Ticket #" required/>
-            <br />
-            <br />
+        <br />
+        <h1>Existing Tickets</h1>
+        <br />
+        <br />
+
+        <! search existing tickets >
+        <form action="searchTicket.php">
+            <div style="text-align:center">
+            <label style="font-size:24px">Search For ticket :</label>
+            <input type="text" name="search"/>
             <button type="submit">Submit</button>
-            <br />
-            <br />
-            <a href="/Tickets/forgotTicket.php">Forgot Ticket #</a>
-            </div>    
+            </div>
         </form>
+
+        <br />
+        <br />
+
+        <?php
+        //currently displays all previous tickets, needs just last ticekt
+        //opens database
+        include "connect.php";
+
+        $sql = "SELECT priority, issue, email FROM tickets";
+        $result = $mysqli->query($sql);
+
+        if ($result->num_rows > 0) {
+            echo "<table><tr><th>priority</th><th>issue</th><th>email</th></tr>";
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "<tr><td>".$row["priority"]."</td><td>".$row["issue"]."</td><td>".$row["email"]."</td></tr>";
+            }
+            echo "</table>";
+        }
+        //closes database
+        $mysqli->close();
+        ?>
 
     </body>
 

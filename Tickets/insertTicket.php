@@ -20,7 +20,7 @@ VALUES ('$priority', '$issue', '$email')";
 $result = $mysqli->query($sql);
 
 //redirects
-header('Location:newTicket.php');
+header('Location:existingTicket.php');
 
 $mysqli->close();
 ?>
