@@ -21,8 +21,8 @@
         
         <div style="text-align:center; font-size:18px">
             <p>To preview a demo of an existing ticket use the following login:</p>
-            <p>Username: demo</p>
-            <p>Password: password</p>
+            <p>Email: <strong>demo@email.com</strong> </p>
+            <p>Ticket #: <strong>3</strong> </p>
         </div>
         <form>
             <div class="box">
