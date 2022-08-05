@@ -19,8 +19,8 @@
     
     <div style="text-align:center; font-size:18px">
         <p>To preview a demo of an existing account use the following login:</p>
-        <p>Username: demo</p>
-        <p>Password: password</p>
+        <p>Username: <strong>demo</strong> </p>
+        <p>Password: <strong>password</strong> </p>
     </div>
 
     <form>
