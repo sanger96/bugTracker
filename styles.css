@@ -106,7 +106,14 @@ th, td {
 	text-align: left;
 	padding: 8px;
 	word-wrap: break-word;
-	max-width: 1000px;
+}
+
+td:nth-child(even){
+	width:1000px;
+}
+
+td:nth-child(odd){
+	max-width:500px;
 }
 
 tr:nth-child(even) {

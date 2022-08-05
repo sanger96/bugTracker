@@ -41,9 +41,7 @@
 
         <! Sumbit button >
         <button type = "submit">Submit</button>
-
-        <! Ticket # return value upon submit >
-        <input style="border-radius:10px; background-color:mediumaquamarine" name="ticket" placeholder=" Ticket # Return" readonly="readonly"/>
+        
         <br />
         <br />
 
