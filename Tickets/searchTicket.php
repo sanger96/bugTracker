@@ -27,12 +27,9 @@
             //title
             echo "<h1>Search Results for $search <br /> <br /> <br /> <br /> <br /> <br />";
 
+            //searching through issue
             $sql = "SELECT priority, issue, email FROM tickets WHERE issue LIKE '%$search%'";
             $result = $mysqli->query($sql);
-
-            if ($result->num_rows == 0){
-                echo "No results.";
-            }
 
             if ($result->num_rows > 0) {
                 echo "<table><tr><th>priority</th><th>issue</th><th>email</th></tr>";
@@ -42,6 +39,37 @@
                 }
                 echo "</table>";
             }
+
+            //searching through email
+            $sql = "SELECT priority, issue, email FROM tickets WHERE email LIKE '%$search%'";
+            $result = $mysqli->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo "<table><tr><th>priority</th><th>issue</th><th>email</th></tr>";
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    echo "<tr><td>".$row["priority"]."</td><td>".$row["issue"]."</td><td>".$row["email"]."</td></tr>";
+                }
+                echo "</table>";
+            }
+
+            //searching through priority
+            $sql = "SELECT priority, issue, email FROM tickets WHERE priority LIKE '%$search%'";
+            $result = $mysqli->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo "<table><tr><th>priority</th><th>issue</th><th>email</th></tr>";
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    echo "<tr><td>".$row["priority"]."</td><td>".$row["issue"]."</td><td>".$row["email"]."</td></tr>";
+                }
+                echo "</table>";
+            }
+
+            if ($result->num_rows == 0){
+                echo "No results.";
+            }
+
             //closes database
             $mysqli->close();
         ?>
