@@ -30,6 +30,10 @@
             $sql = "SELECT priority, issue, email FROM tickets WHERE issue LIKE '%$search%'";
             $result = $mysqli->query($sql);
 
+            if ($result->num_rows == 0){
+                echo "No results.";
+            }
+
             if ($result->num_rows > 0) {
                 echo "<table><tr><th>priority</th><th>issue</th><th>email</th></tr>";
                 // output data of each row
