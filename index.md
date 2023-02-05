@@ -8,7 +8,7 @@
 <body>
     <nav class="topnav">
         <a href="bugTracker/index.php">Home</a>
-        <a href="bugTracker/Tickets/createTicket.php">Create Ticket</a>
+        <a href="bugTracker/Tickets/createTicket.html">Create Ticket</a>
         <a href="bugTracker/Tickets/existingTicket.php">Existing Tickets</a>
         <a href="bugTracker/devAccounts/devLogin.php">Developer Login</a>
     </nav>
