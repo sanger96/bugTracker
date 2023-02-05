@@ -7,10 +7,10 @@
 
 <body>
     <nav class="topnav">
-        <a href="/index.php">Home</a>
-        <a href="/Tickets/createTicket.php">Create Ticket</a>
-        <a href="/Tickets/existingTicket.php">Existing Tickets</a>
-        <a href="/devAccounts/devLogin.php">Developer Login</a>
+        <a href="bugTracker/index.php">Home</a>
+        <a href="bugTracker/Tickets/createTicket.php">Create Ticket</a>
+        <a href="bugTracker/Tickets/existingTicket.php">Existing Tickets</a>
+        <a href="bugTracker/devAccounts/devLogin.php">Developer Login</a>
     </nav>
 
     <h1>
@@ -20,17 +20,17 @@
     <div class="box">
         
         <! Create New Ticket >
-        <button onclick="location.href ='/Tickets/createTicket.php'">Create New Ticket</button>
+        <button onclick="location.href ='bugTracker/Tickets/createTicket.php'">Create New Ticket</button>
         <br />
         <br />
         
         <! Existing Ticket >
-        <button onclick="location.href ='/Tickets/existingTicket.php'">Open Existing Ticket</button>
+        <button onclick="location.href ='bugTracker/Tickets/existingTicket.php'">Open Existing Ticket</button>
         <br />
         <br />
         
         <! Developer Login >
-        <button onclick="location.href ='/devAccounts/devLogin.php'">Developer Login</button>
+        <button onclick="location.href ='bugTracker/devAccounts/devLogin.php'">Developer Login</button>
 
     </div>
 </body>
