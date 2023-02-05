@@ -8,7 +8,7 @@
 <body>
     <nav class="topnav">
         <a href="bugTracker/index.php">Home</a>
-        <a href="bugTracker/Tickets/createTicket.html">Create Ticket</a>
+        <a href="bugTracker/Tickets/createTicket.md">Create Ticket</a>
         <a href="bugTracker/Tickets/existingTicket.php">Existing Tickets</a>
         <a href="bugTracker/devAccounts/devLogin.php">Developer Login</a>
     </nav>
@@ -20,7 +20,7 @@
     <div class="box">
         
         <! Create New Ticket >
-        <button onclick="location.href ='bugTracker/Tickets/createTicket.php'">Create New Ticket</button>
+        <button onclick="location.href ='bugTracker/Tickets/createTicket.md'">Create New Ticket</button>
         <br />
         <br />
         
